@@ -1,0 +1,13 @@
+# Rad1.lego	4. April 1999	by eddy
+#####################################################                                
+Raum	2000	4	9	6	-45°	60°
+#	^pixels	^xsize	^ysize	^zsize	^rot1	^rot2 
+#####################################################
+###
+Achsezwei2x4  0  5  1  grau  w
+Rad           0  6  3  blau  w
+Rad           4  6  3  rot   o
+Achsezwei2x2  1  1  1  grau  n
+Rad           2  1  3  gelb  s
+Rad           2  3  3  gruen n
+###

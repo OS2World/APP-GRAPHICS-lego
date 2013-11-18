@@ -1,0 +1,14 @@
+# flieger1.lego   by eddy   1. December 1998
+#                                
+Raum  1000     7     6     5     -10°       60°
+#    ^^^^^^ ^^^^^ ^^^^^ ^^^^^ ^^^^^^^^^ ^^^^^^^^^
+#    pixels xsize ysize zsize rotation1 rotation2 
+#
+Flach2x4   1  2  0 blau w
+Flach2x2   0  2  1 blau
+Flach2x3   2  0  1 rot
+Flach2x3   2  3  1 rot
+Flach2x3   4  2  1 blau w
+Dach45x2   1  2  2 weiss w
+Dach45x2   3  2  2 gelb o
+Stein1x2   6  2  2 gelb

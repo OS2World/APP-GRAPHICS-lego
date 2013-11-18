@@ -1,0 +1,35 @@
+LIESMICH.txt	v1.0	6. May 1999	by eddy
+
+lego ist ein Tool, um Bilder von Modellen aus LEGO(R)-artigen Bausteinen zu 
+erzeugen. Es benutzt einfach stdin und stdout Streams. Durch Compilieren 
+eines entsprechenden Textes wird die Grafik aufgebaut. Am Ende des Programm-
+durchlaufes wird die Grafik im portable-pixmap-Format ausgegeben.
+
+Usage:   lego < textquelle > pixmap
+
+Beispiel: 
+	lego < example.lego > example.ppm
+
+Die Eingangsdatei beschreibt einen virtuellen Raum durch Groesse und
+Betrachtungswinkel. Sie beschreibt ferner Objekte innerhalb des Raumes
+durch ihre Position, Farbe und Ausrichtung. Siehe Beispiele.
+
+Das Programm wurde fuer Linux entwickelt, kann aber auch auf andere
+Betriebssysteme portiert werden. Es verwendet die GNU libg++ Klassen-
+Bibliothek. 
+
+Die Quellen finden sich unter:
+
+    ftp://ftp.mpifr-bonn.mpg.de/pub/incoming/en/lego1v0.tar.gz
+
+Falls sie von dort verschwunden sind, dann unter:
+
+    ftp://ftp.speckle.mpifr-bonn.mpg.de/pub/taoi/en/lego1v0.tar.gz
+
+Um das Programm zu compilieren muss man in das Verzeichnis wechseln, indem
+sich die ausgepackten Quelldateien befinden und "make lego" eingeben. Wenn
+alles gut geht, entsteht die ausfuehtbare Datei "lego". Wird egcs benutzt,
+dann erzeugt der Linker einige Warnings, die ich leider noch nicht vermeiden
+konnte.
+
+Autor:	Edmund Nussbaum <en@mpifr-bonn.mpg.de> ;-)

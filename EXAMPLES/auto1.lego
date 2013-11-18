@@ -1,0 +1,27 @@
+###################################################
+# Auto1.lego   by eddy   13. Februar 1999	  #
+###################################################
+#                                                 #
+Raum  2000    10     6    10      -25°       60°  #
+#    ^^^^^^ ^^^^^ ^^^^^ ^^^^^ ^^^^^^^^^ ^^^^^^^^^ #
+#    pixels xsize ysize zsize rotation1 rotation2 #
+###################################################
+
+Nullpunkt      0  1  1
+Achsezwei2x4   1  0  0 grau
+Achsezwei2x4   7  0  0 grau
+Rad            2  0  2 rot s
+Rad            2  4  2 rot n
+Rad            8  0  2 rot s
+Rad            8  4  2 rot n
+Stein1x4       0  0  0 gelb
+Stein1x4       9  0  0 gelb
+Flach4x10      0  0  3 weiss w
+Dach22x4       0  0  4 rot w
+Stein1x4       3  0  4 rot
+Stein2x3       7  0  4 blau w
+Stein2x3       7  2  4 blau w
+Achsezwei2x2   2  1  7 grau o
+Rad            4  2  9 rot o
+Dach45x4       8  0  7 gruen w
+#

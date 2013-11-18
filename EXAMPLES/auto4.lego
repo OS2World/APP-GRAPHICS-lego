@@ -1,0 +1,20 @@
+# auto4.lego	22. April 1999	by eddy
+#####################################################                                
+Raum	2000	10	6	8	-60°	40°
+#	^pixels	^xsize	^ysize	^zsize	^rot1	^rot2 
+#####################################################
+#       	x	y	z	col	dir
+#
+Achsevier	0	1	1	blau	n
+Rad		2	1	3	rot	s
+Rad		2	5	3	rot	n
+Rad		8	1	3	rot	s
+Rad		8	5	3	rot	n
+#
+Stein1x4	0	3	4	weiss	w
+Dach22x2	4	3	4	rot	n
+Rund1		4	0	4	gelb	s
+Rund2		7	1	4	gruen	n
+Stein2x2	3	2	7	schwarz
+#
+###

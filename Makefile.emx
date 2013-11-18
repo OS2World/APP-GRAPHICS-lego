@@ -1,0 +1,31 @@
+.SUFFIXES:      .cpp .obj .o .a .lib .exe
+
+CFLAGS += -Wall -O3 -g
+CC=gcc
+CPP=gcc
+
+%.o : %.cc
+	$(CC) -c $(CFLAGS)   $*.cc -o $*.o
+
+#######################################################################
+
+
+all: lego.exe
+	echo	
+
+new:
+	make clean; make all
+
+clean:
+	rm -f *.o
+
+#######################################################################
+
+lego.exe:       lego.o shape.o vector.o room.o line.o rotator.o \
+        signatur.o part.o
+	$(CC) -o lego.exe  $(CFLAGS) lego.o shape.o  \
+        room.o line.o rotator.o signatur.o part.o vector.o -lgpp -lstdcpp -lbsd
+
+#######################################################################
+
+

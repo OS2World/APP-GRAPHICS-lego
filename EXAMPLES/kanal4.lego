@@ -1,0 +1,112 @@
+# kanal4   by eddy   17. January 1999
+#   
+Raum  3000    17    17     9     -22°      45°
+#    ^^^^^^ ^^^^^ ^^^^^ ^^^^^ ^^^^^^^^^ ^^^^^^^^^
+#    pixels xsize ysize zsize rotation1 rotation2 
+#
+Nullpunkt    1  1  0
+
+Flach2x3     0  4  0 grau
+Flach2x3     2  4  0 grau
+Flach1x2     4  4  0 grau
+Flach1x1     4  6  0 grau
+Flach2x3     2  2  0 grau w
+Flach2x3     2  0  0 grau w
+
+Flach2x3     7  0  0 grau w
+Flach2x3     7  2  0 grau w
+Flach1x1     7  6  0 grau
+Flach1x2     7  4  0 grau
+Flach2x3     8  4  0 grau
+Flach2x3    10  4  0 grau
+Flach2x3    12  4  0 grau
+Flach2x3    14  4  0 grau
+
+Flach2x3     0  9  0 grau
+Flach2x3     2  9  0 grau
+Flach2x3     4  9  0 grau
+Flach2x3     6  9  0 grau
+Flach1x2     8  9  0 grau
+Flach1x1     8 11  0 grau
+Flach2x3     6 12  0 grau w
+Flach2x3     6 14  0 grau w
+
+Flach2x3    11 14  0 grau w
+Flach2x3    11 12  0 grau w
+Flach1x1    11 11  0 grau
+Flach1x2    11  9  0 grau
+Flach2x3    12  9  0 grau
+Flach2x3    14  9  0 grau
+
+Dach22x2    0  4  1 rot n
+Dacheck22   2  4  1 rot n
+Dach22x4    2  0  1 rot o
+
+Dach22x4    7  0  1 rot w
+Dacheck22   7  4  1 rot w
+Dach22x2   10  4  1 rot n
+Dach22x4   12  4  1 rot n
+
+Dach22x2   14  9  1 rot s
+Dacheck22  11  9  1 rot s
+Dach22x4   11 12  1 rot w
+
+Dach22x4    6 12  1 rot o
+Dacheck22   6  9  1 rot o
+Dach22x2    4  9  1 rot s
+Dach22x4    0  9  1 rot s
+
+Stein1x3    0  4  4 gelb w
+Stein1x4    2  0  4 gelb n
+
+Stein1x4    9  0  4 gelb n
+Stein1x4    9  4  4 gelb w
+Stein1x3   13  4  4 gelb w
+
+Stein1x4   13 12  4 gelb n
+Stein1x3   13 11  4 gelb w
+
+Stein1x4    6 12  4 gelb n
+Stein1x4    3 11  4 gelb w
+Stein1x3    0 11  4 gelb w
+
+Stein1x2    0  4  7 gelb w
+Stein1x3    2  2  7 gelb n
+Stein1x2    2  0  7 gelb n
+
+Stein1x2    9  0  7 gelb n
+Stein1x3    9  2  7 gelb n
+Stein1x4   10  4  7 gelb w
+Stein1x2   14  4  7 gelb w
+
+Stein1x2   13 14  7 gelb n
+Stein1x3   13 11  7 gelb n
+Stein1x2   14 11  7 gelb w
+
+Stein1x2    6 14  7 gelb n
+Stein1x3    6 11  7 gelb n
+Stein1x4    2 11  7 gelb w
+Stein1x2    0 11  7 gelb w
+
+Kachel1x2   0  7  0 weiss
+Kachel2x2   1  7  0 weiss
+Kachel2x2   3  7  0 weiss
+Kachel2x2   5  7  0 weiss
+Kachel2x2   7  7  0 weiss
+Kachel2x2   9  7  0 weiss
+Kachel2x2  11  7  0 weiss
+Kachel2x2  13  7  0 weiss
+Kachel1x2  15  7  0 weiss
+
+Kachel1x2   5  0  0 weiss w
+Kachel2x2   5  1  0 weiss
+Kachel2x2   5  3  0 weiss
+Kachel2x2   5  5  0 weiss
+
+Kachel2x2   9  9  0 weiss
+Kachel2x2   9 11  0 weiss
+Kachel2x2   9 13  0 weiss
+Kachel1x2   9 15  0 weiss w
+
+Grund16x16  0  0  0 hellgruen
+#
